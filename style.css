@@ -155,4 +155,13 @@ hr{
 .right p{
     color:var(--color-Soft-blue);
 }
+@media screen and(max-width:420px) {
+
+    body{
+        width: 100%;
+        min-width: 360px;
+        height: 100vh;
+        min-width: 600px;  
+    }
+}
 
