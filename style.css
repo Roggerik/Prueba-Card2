@@ -155,7 +155,7 @@ hr{
 .right p{
     color:var(--color-Soft-blue);
 }
-@media screen and(min-width:420px) and (max-width:500px){
+@media screen and(min-width:360px) and (max-width:700px){
 
     body{
         background-color:red;
