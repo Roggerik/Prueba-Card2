@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
-
 *{
     margin: 0;
     padding: 0;
@@ -21,18 +19,17 @@ body{
     font-family:'Outfit';
     width: 100%;
     min-width: 360px;
-    height: 100vh;
     display: flex;
     justify-content: center;
-    overflow-y: scroll;
 }
 
 .contenedor{
-    margin: auto;
+    margin: 5% auto;
     background-color: var(--color-main-BG);
     width: 80%;
     min-width: 360px;
-    height: 90%;
+    
+    height: 90vh;
     display: grid;
     place-content: center;
 }
