@@ -18,12 +18,11 @@
 body{
     font-family:'Outfit';
     width: 100%;
-    height:auto;
     min-height:100vh;
     min-width: 360px;
     display: flex;
     justify-content: center;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .contenedor{
@@ -34,6 +33,7 @@ body{
     height: 500px;
     display: grid;
     place-content: center;
+    overflow:auto;
 }
 
 .contenedor-card{
