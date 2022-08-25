@@ -30,7 +30,7 @@ body{
     background-color: var(--color-main-BG);
     width: 80%;
     min-width: 360px;
-    height: 90vh;
+    height: 500px;
     display: grid;
     place-content: center;
 }
