@@ -18,9 +18,11 @@
 body{
     font-family:'Outfit';
     width: 100%;
+    height:auto;
     min-width: 360px;
     display: flex;
     justify-content: center;
+    overflow: scroll;
 }
 
 .contenedor{
@@ -28,7 +30,6 @@ body{
     background-color: var(--color-main-BG);
     width: 80%;
     min-width: 360px;
-    
     height: 90vh;
     display: grid;
     place-content: center;
